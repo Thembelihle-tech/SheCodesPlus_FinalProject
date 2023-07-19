@@ -26,29 +26,29 @@
                             </div>
                         </form>
                         <div class="overview">
-                            <h1 id="city"></h1>
+                            <h1 id="city">Pretoria</h1>
                             <ul>
-                                <li>Last updated: <span id="date"></span></li><br>
-                                <li id="description"></li>
+                                <li>Last updated: <span id="day"><span id="date"></span><span id="time"></span></span>
+                                </li><br>
+                                <li id="description">clear sky</li>
                             </ul>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="d-flex weather-temperature">
-                                    <img src="https://static.vecteezy.com/system/resources/previews/012/303/017/original/3d-sunny-weather-illustration-png.png" alt="partly cloudy" id="icon">
-                                    <div>
-                                        <strong id="temperature"></strong>
+                                    <img src="http://openweathermap.org/img/wn/01d@2x.png" id="icon" alt="" >
+                                    <div id="temperature-block">
+                                        <strong id="temperature">11</strong>
                                         <span class="units">
-                                            <a href="#" id="celcius-link" class="active">°C</a> |
-                                            <a href="#" id="fahrenheit-link" class="active">°F</a>
+                                            <a href="#" id="celcius-link" class="active">°C</a> 
                                         </span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <ul>
-                                    <li>Humidity: <span id="humidity"></span>%</li>
-                                    <li>Wind: <span id="wind"></span>km/h</li>
+                                    <li>Humidity: <span id="humidity">30</span>%</li>
+                                    <li>Wind: <span id="wind">4</span>km/h</li>
                                 </ul>
                             </div>
                         </div>
@@ -61,12 +61,14 @@
                                 <div class="weather-forecast-date">
                                     Mon
                                 </div>
-                                <img src="https://static.vecteezy.com/system/resources/previews/012/303/017/original/3d-sunny-weather-illustration-png.png" width="36px">
+                                <img src="http://openweathermap.org/img/wn/01d@2x.png" width="42px">
                                 <div class="weather-forecast-temperatures">
                                     <span class="weather-forecast-temperature-max">
                                         16°
                                     </span>
-                                    <span class="weather-forecast-temperature-min">10°</span>
+                                    <span class="weather-forecast-temperature-min">
+                                        10°
+                                    </span>
                                 </div>
                             </div>
                         </div>
